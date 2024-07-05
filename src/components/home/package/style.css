@@ -1,0 +1,67 @@
+.img_tag {
+    border-radius: 20px;
+}
+
+.container h2 {
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    color: orangered;
+    font-family: Ubuntu, "sans-serif";
+}
+
+.container p {
+    font-family: Poppins, "sans-serif";
+    padding-bottom: 10px;
+}
+
+
+/* Add this to your existing styles */
+
+.strikethrough {
+    position: relative;
+    display: inline-block;
+    font-family: Poppins, "sans-serif";
+}
+
+.strikethrough::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    border-bottom: 2px solid rgb(255, 149, 0);
+    /* Customize the color and thickness of the strikethrough line */
+    transform: rotate(-10deg);
+    /* Slight tilt for a more stylish look */
+}
+
+.explore {
+    border-radius: 20px;
+    border: none;
+    color: #fff;
+    background: #f1d413;
+    padding: 10px 20px;
+    font-family: Poppins, "sans-serif";
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.explore:hover {
+    background: #010861;
+}
+
+.book_tour {
+    border-radius: 20px;
+    border: none;
+    color: #fff;
+    background: #010861;
+    padding: 10px 25px;
+    font-family: Poppins, "sans-serif";
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.book_tour:hover {
+    background: #f1d413;
+}
